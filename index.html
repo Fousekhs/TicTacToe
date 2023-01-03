@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <header>
+        <span>Tic</span> <span>Tac</span> <span>Toe</span>
+        <div class="border"></div>
+        <div class="loading-border" data-type="hidden"></div>
+    </header>
+    <div class="content">
+    </div>
+        
+    <script>
+        /*
+        const open = document.querySelector("#open");
+        const close = document.querySelector("#close");
+        const border = document.querySelector(".loading-border");
+        open.addEventListener("click", () => {
+            border.dataset.type = "initial";
+            setTimeout(() => {
+                border.dataset.type = "ongoing";
+            }, 1500);
+        }); 
+        close.addEventListener("click", () => {
+            border.dataset.type = "closing";
+            setTimeout(() => {
+                border.dataset.type = "hidden";
+            }, 1500);
+        });
+        */
+    </script>
+    <script src="Events.js"></script>
+    <script src="Gameboard.js"></script>
+    <script src="GUIHandler.js"></script>
+</body>
+</html>
